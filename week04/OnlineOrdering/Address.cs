@@ -27,7 +27,7 @@ public class Address
         return $"{_street}\n{_city}, {_stateOrProvince}\n{_country}";
     }
 
-    // Optional getters (helpful for debugging/testing)
+    // Optional getters 
     public string Street { get { return _street; } set { _street = value; } }
     public string City { get { return _city; } set { _city = value; } }
     public string StateOrProvince { get { return _stateOrProvince; } set { _stateOrProvince = value; } }

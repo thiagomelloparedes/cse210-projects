@@ -26,7 +26,7 @@ public class Customer
         return _address;
     }
 
-    // Properties (encapsulation requirement)
+    // Properties 
     public string Name { get { return _name; } set { _name = value; } }
     public Address Address { get { return _address; } set { _address = value; } }
 }

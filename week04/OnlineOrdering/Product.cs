@@ -30,7 +30,7 @@ public class Product
         return _productId;
     }
 
-    // Properties (encapsulation requirement)
+    // Properties 
     public string Name { get { return _name; } set { _name = value; } }
     public string ProductId { get { return _productId; } set { _productId = value; } }
     public double PricePerUnit { get { return _pricePerUnit; } set { _pricePerUnit = value; } }

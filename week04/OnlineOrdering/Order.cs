@@ -58,6 +58,6 @@ public class Order
         return sb.ToString();
     }
 
-    // Properties (encapsulation requirement)
+    // Properties 
     public Customer Customer { get { return _customer; } set { _customer = value; } }
 }
