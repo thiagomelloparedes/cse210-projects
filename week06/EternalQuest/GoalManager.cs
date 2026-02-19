@@ -335,7 +335,6 @@ public class GoalManager
         }
     }
 
-    // OPTION B FIX: no string? and safe null handling with ?? ""
     private static string ReadString(string prompt)
     {
         while (true)
