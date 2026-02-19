@@ -208,7 +208,7 @@ public class GoalManager
 
             _score = int.Parse(lines[0]);
 
-            // badges (optional)
+            // badges 
             if (lines.Length >= 2 && !string.IsNullOrWhiteSpace(lines[1]))
             {
                 foreach (string badge in lines[1].Split(';', StringSplitOptions.RemoveEmptyEntries))
@@ -319,7 +319,6 @@ public class GoalManager
         return "Novice Seeker";
     }
 
-    // OPTION B FIX: no string? and safe null handling with ?? ""
     private static int ReadInt(string prompt, int min, int max)
     {
         while (true)
